@@ -13,15 +13,12 @@
   <main>
 
     <section class="banner">
-      <img class="test" src="assets/banner/coffee cup holder.png" alt="ambiente de preparacao de cafe">
       <header>
+        <a href=""><img class="burger" src="assets/icons/Burger.svg" alt="icone hamburger menu"></a>
         <h1>Black<i>Coffee</i></h1>
+        <a href=""><img class="cart" src="assets/icons/cart.svg" alt="icone carrinho de compras"></a>
       </header>
       <div class="banner-elements">
-        <a href=""><img class="cart" src="assets/icons/cart.svg" alt="icone carrinho de compras"></a>
-        <a href=""><img class="burger" src="assets/icons/Burger.svg" alt="icone hamburger menu"></a>
-      </div>
-      <div class="banner-sliders">
         <form>
           <input type="radio" name="slide" id="slide1" checked>
           <label class="bar1" for="slide1"><img src="assets/icons/trancicionone.svg"
@@ -34,13 +31,17 @@
               alt="icone barra de transição"></label>
         </form>
       </div>
+      <div class="banner-sliders"><!--div onde ficara as imagens para o slider-->
+      </div>
       <div class="banner-title">
         <h2>Preparamos o melhor café fresco da torra cada dia</h2>
         <p>Entregamos em todo Brasil</p>
       </div>
-      <div class="banner-arrows">
-        <img src="assets/icons/arrow left.svg" alt="icone seta apontando para esquerda">
-        <img src="assets/icons/arrow right.svg" alt="icone seta apontando para direita">
+      <div class="banner-arrows"><!--botao onde permitira o usuario passar o slider-->
+        <button class="banner-arrow"><img src="assets/icons/leftarrow.svg"
+            alt="icone seta apontando para esquerda"></button>
+        <button class="banner-arrow"><img src="assets/icons/rightarrow.svg"
+            alt="icone seta apontando para direita"></button>
       </div>
     </section>
 
@@ -49,14 +50,14 @@
         <img src="assets/banner/coffee machine.png" alt="maquina preparando cafe">
       </div>
       <div>
-        <h2>Café magico...</h2>
+        <h3>Café magico...</h3>
         <p>Preparado com os melhores ingredientes e com os melhores acessórios, seguindo os métodos tradicionais e os
           mais modernos.
         </p>
       </div>
 
       <div>
-        <h2>...e muito mais</h2>
+        <h3>...e muito mais</h3>
         <p>Não esqueça de dar uma olhada em nossa seleção de sobremesas deliciosas!
         </p>
       </div>
@@ -66,7 +67,7 @@
     </section>
 
     <section class="varieties">
-      <h2>Variedades de café</h2>
+      <h4>Variedades de café</h4>
       <div class="variety-cards">
         <div class="card">
           <p>RUANDA UMARAGE NAT</p>
@@ -139,23 +140,22 @@
         </div>
         <div class="catalog">
           <img src="assets/coffee/coffee grain.png" alt="graos de cafe dentro de dois potes">
-          <h2>Catálogo de cafés</h2>
+          <h4>Catálogo de cafés</h4>
           <p>Mais de 50 tipos de café fresco da torra para qualquer método de preparo</p>
         </div>
         <div class="acessory">
           <img src="assets/coffee/coffee accessory.png" alt="jarra de cafe">
-          <h2>Acessórios</h2>
+          <h4>Acessórios</h4>
           <p>Todo o que a gente precisa para preparar um café saboroso em casa
           </p>
         </div>
       </div>
     </section>
     <section class="find-store">
-      <h2>Encontre uma loja</h2>
+      <h4>Encontre uma loja</h4>
       <select id="select-city" placeholder="Escolha a cidade">
         <option value="">Escolha a cidade</option>
       </select>
-      <label for="select=city"><img src="assets/icons/bottomarrow.svg" alt="seta apontando para baixo"></label>
       <form>
         <input type="search" id="address" placeholder="Digite o endereço">
         <label for="address"><img src="assets/icons/lupa.svg" alt="icone de uma lupa"></label>
@@ -170,23 +170,23 @@
     <h5>Black<i>Coffee</i></h5>
     <ul>
       <li class="list-title">INSTITUCIONAL</li>
-      <li>Quem somos</li>
-      <li>Certificados</li>
-      <li>Nossa produção</li>
-      <li>Programa de parceiros</li>
+      <li><a href="">Quem somos</a></li>
+      <li><a href="">Certificados</a></li>
+      <li><a href="">Nossa produção</a></li>
+      <li><a href="">Programa de parceiros</a></li>
     </ul>
     <ul>
       <li class="list-title">PRODUTOS</li>
-      <li>Café</li>
-      <li>Té</li>
-      <li>Acessórios</li>
-      <li>Ofertas</li>
+      <li><a href="">Café</a></li>
+      <li><a href="">Té</a></li>
+      <li><a href="">Acessórios</a></li>
+      <li><a href="">Ofertas</a></li>
     </ul>
     <ul>
       <li class="list-title">REDES SOCIAIS</li>
-      <li> <img src="assets/icons/Instagram.svg" alt="icone do Instagram"></li>
-      <li> <img src="assets/icons/Twitter.svg" alt="icone do Twitter"></li>
-      <li> <img src="assets/icons/Facebook.svg" alt="icone do Facebook"></li>
+      <li><a href=""><img src="assets/icons/Instagram.svg" alt="icone do Instagram"></a></li>
+      <li><a href=""><img src="assets/icons/Twitter.svg" alt="icone do Twitter"></a></li>
+      <li><a href=""><img src="assets/icons/Facebook.svg" alt="icone do Facebook"></a></li>
     </ul>
     <p>DESIGNED BY <img src="assets/icons/logo.svg" alt="logotipo da mentorama"></p>
   </footer>
