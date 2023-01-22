@@ -7,6 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Black Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,35 +20,92 @@
 
     <section class="banner">
       <header>
-        <a href=""><img class="burger" src="assets/icons/Burger.svg" alt="icone hamburger menu"></a>
-        <h1>Black<i>Coffee</i></h1>
-        <a href=""><img class="cart" src="assets/icons/cart.svg" alt="icone carrinho de compras"></a>
-      </header>
-      <div class="banner-elements">
-        <form>
+        <div class="banner-title">
+          <h1>Black<i>Coffee</i></h1>
+        </div>
+
+        <div class="banner-elements">
+          <a href=""><img class="burger" src="assets/header/Burger.svg" alt="icone hamburger menu"></a>
+          <a href=""><img class="cart" src="assets/header/cart.svg" alt="icone carrinho de compras"></a>
           <input type="radio" name="slide" id="slide1" checked>
-          <label class="bar1" for="slide1"><img src="assets/icons/trancicionone.svg"
-              alt="icone barra de transição"></label>
           <input type="radio" name="slide" id="slide2">
-          <label class="bar2" for="slide2"><img src="assets/icons/tranciciontwo.svg"
-              alt="icone barra de transição"></label>
           <input type="radio" name="slide" id="slide3">
-          <label class="bar3" for="slide3"><img src="assets/icons/trancicionthree.svg"
-              alt="icone barra de transição"></label>
-        </form>
-      </div>
-      <div class="banner-sliders"><!--div onde ficara as imagens para o slider-->
-      </div>
-      <div class="banner-title">
-        <h2>Preparamos o melhor café fresco da torra cada dia</h2>
-        <p>Entregamos em todo Brasil</p>
-      </div>
-      <div class="banner-arrows"><!--botao onde permitira o usuario passar o slider-->
-        <button class="banner-arrow"><img src="assets/icons/leftarrow.svg"
-            alt="icone seta apontando para esquerda"></button>
-        <button class="banner-arrow"><img src="assets/icons/rightarrow.svg"
-            alt="icone seta apontando para direita"></button>
-      </div>
+
+          <div class="navegation">
+            <label for="slide1" class="bar" id="bar1">
+              <svg width="32" height="4" viewBox="0 0 32 4" opacity="0.5" xmlns="http://www.w3.org/2000/svg">
+                <rect width="32" height="4" rx="2" fill="white" />
+              </svg>
+
+            </label>
+            <label for="slide2" class="bar" id="bar2">
+              <svg width="32" height="4" viewBox="0 0 32 4" opacity="0.5" xmlns="http://www.w3.org/2000/svg">
+                <rect width="32" height="4" rx="2" fill="white" />
+              </svg>
+
+            </label>
+            <label for="slide3" class="bar" id="bar3">
+              <svg width="32" height="4" viewBox="0 0 32 4" opacity="0.5" xmlns="http://www.w3.org/2000/svg">
+                <rect width="32" height="4" rx="2" fill="white" />
+              </svg>
+            </label>
+          </div>
+
+          <div class="container">
+            <div class="banner-sliders">
+              <span class="slide s1">
+                <h2>Preparamos o melhor café fresco da torra cada dia</h2>
+                <p>Entregamos em todo Brasil</p>
+              </span>
+
+              <span class="slide s2">
+                <h2>Loremipsum or situs amet conse adi pisicing elit Ut!</h2>
+                <p>Lorem ipsum dolor sit.</p>
+              </span>
+
+              <span class="slide s3">
+                <h2>ipsumLorem dol sitmet ecte constur adi compsad nmlif</h2>
+                <p>Lorem ipsum dolor sit.</p>
+              </span>
+            </div>
+          </div>
+
+          <div class="banner-arrows">
+            <label for="slide3" class="one" id="pre"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 17L2 9L10 1" stroke="white" stroke-width="2" />
+              </svg>
+            </label>
+            <label for="slide2" class="one" id="nxt"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L9 9L1 17" stroke="white" stroke-width="2" />
+              </svg>
+            </label>
+
+            <label for="slide1" class="two" id="pre"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 17L2 9L10 1" stroke="white" stroke-width="2" />
+              </svg>
+            </label>
+            <label for="slide3" class="two" id="nxt"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L9 9L1 17" stroke="white" stroke-width="2" />
+              </svg>
+            </label>
+
+            <label for="slide2" class="three" id="pre"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 17L2 9L10 1" stroke="white" stroke-width="2" />
+              </svg>
+            </label>
+            <label for="slide1" class="three" id="nxt"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L9 9L1 17" stroke="white" stroke-width="2" />
+              </svg>
+            </label>
+          </div>
+        </div>
+      </header>
     </section>
 
     <section class="highlights">
@@ -139,12 +202,10 @@
           <p>Presente por cada 6 caixas de café</p>
         </div>
         <div class="catalog">
-          <img src="assets/coffee/coffee grain.png" alt="graos de cafe dentro de dois potes">
           <h4>Catálogo de cafés</h4>
           <p>Mais de 50 tipos de café fresco da torra para qualquer método de preparo</p>
         </div>
         <div class="acessory">
-          <img src="assets/coffee/coffee accessory.png" alt="jarra de cafe">
           <h4>Acessórios</h4>
           <p>Todo o que a gente precisa para preparar um café saboroso em casa
           </p>
@@ -190,6 +251,7 @@
     </ul>
     <p>DESIGNED BY <img src="assets/icons/logo.svg" alt="logotipo da mentorama"></p>
   </footer>
+
 </body>
 
 </html>
