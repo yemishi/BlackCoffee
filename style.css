@@ -103,7 +103,9 @@ main {
   margin-left: 90px;
   margin-top: 190px;
 }
-
+.bar{
+  cursor: pointer;
+}
 #slide1:checked~.navegation #bar1 svg {
   opacity: 100%;
 }
@@ -144,6 +146,7 @@ input[type="radio"] {
 
 #pre,
 #nxt {
+  cursor: pointer;
   margin-top: 95px;
   position: relative;
   width: 56px;
