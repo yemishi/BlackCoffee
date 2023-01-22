@@ -1,6 +1,6 @@
 :root {
   --branco: #ffffff;
-  --preto:  #0B1D03;
+  --preto: #0B1D03;
 }
 
 body {
@@ -9,27 +9,172 @@ body {
 }
 
 main {
-  
+
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.banner{
-  background-image: url("assets/banner/coffee\ cup\ holder.png");
-}
-.banner-arrow{  
-height: 56px;
-width: 56px;
-border: 1px solid #FFFFFF;
-background: none;
-border-radius: 50%;
-}
-select{
-background: url("assets/icons/bottomarrow.svg");
-padding-right: 30px;
-appearance: none;
-background-position: right 5px top 50%;  
-background-repeat: no-repeat;
 
+}
+
+.banner {
+  background-image: url("assets/banner/coffee\ cup\ holder.png");
+  height: 900px;
+  width: 1600px;
+  position: relative;
+}
+
+.banner-sliders {
+  width: 300%;
+  height: 100%;
+  display: flex;
+}
+
+.banner-sliders span h2 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 88px;
+  width: 704px;
+  color: #FFFFFF;
+  height: 224px;
+}
+.banner-title{
+  position: absolute;
+  margin-left:731px;
+  margin-top:12px;
+  top: 0;
+  left: 0;
+  color: #FFFFFF;
+  font-family: 'Playfair Display';
+
+}
+.burger{
+  margin-left: 89px;
+  margin-top: 36px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.cart {
+  margin-right: 89px;
+  margin-top: 36px;
+  right: 0;
+  top: 0;
+  position: absolute;
+
+}
+
+.banner-sliders span p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  width: 459px;
+  color: #FFFFFF;
+  height: 40px;
+
+}
+
+.s1 {
+  transition: 1s;
+}
+
+#slide2:checked~.container .banner-sliders .s1 {
+  margin-left: -33.3%;
+
+}
+
+#slide3:checked~.container .banner-sliders .s1 {
+  margin-left: -66.6%;
+}
+
+.container {
+  margin-left: 80px;
+  height: 428px;
+  width: 704px;
+  overflow: hidden;
+}
+
+.navegation {
+  position: relative;
+  margin-left: 90px;
+  margin-top: 190px;
+}
+
+#slide1:checked~.navegation #bar1 svg {
+  opacity: 100%;
+}
+
+#slide2:checked~.navegation #bar2 svg {
+  opacity: 100%;
+}
+
+#slide3:checked~.navegation #bar3 svg {
+  opacity: 100%;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#slide1:checked~.banner-arrows .one {
+  display: block;
+}
+
+#slide2:checked~.banner-arrows .two {
+  display: block;
+}
+
+#slide3:checked~.banner-arrows .three {
+  display: block;
+}
+
+.banner-arrows .one,
+.two,
+.three {
+  display: none;
+}
+
+.banner-arrows {
+  display: flex;
+}
+
+#pre,
+#nxt {
+  margin-top: 95px;
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+}
+
+#pre svg,
+#nxt svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#pre {
+  margin-left: 80px;
+}
+
+#nxt {
+  margin-left: 20px;
+}
+.catalog{
+  background-image: url("assets/coffee/coffee grain.png");
+  width: 704px;
+height: 560px;
+
+}
+.acessory{
+  background-image: url("assets/coffee/coffee accessory.png");
+  Width:704px;
+Height:560px;
 }
