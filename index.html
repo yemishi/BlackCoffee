@@ -6,173 +6,197 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/icons/coffe-icon.svg">
   <title>Black Coffee</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <i class="fa-solid fa-mug-hot"></i>
 </head>
 
 <body>
   <main>
+    <header class="banner">
 
-    <section class="banner">
-      <header>
-        <div class="banner-title">
+      <div class="acoes">
+        <a href="">
+          <img class="burger" src="assets/header/Burger.svg" alt="icone hamburger menu">
+        </a>
+        <span class="banner-title">
           <h1>Black<i>Coffee</i></h1>
+        </span>
+        <a href="">
+          <img class="cart" src="assets/header/cart.svg" alt="icone carrinho de compras">
+        </a>
+      </div>
+
+      <div class="banner-elements">
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+        <input type="radio" name="slide" id="slide3">
+
+        <div class="navegation">
+          <label for="slide1" class="bar" id="bar1">
+            <svg width="32" height="4" viewBox="0 0 32 4" opacity="0.5" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="4" rx="2" fill="white" />
+            </svg>
+
+          </label>
+          <label for="slide2" class="bar" id="bar2">
+            <svg width="32" height="4" viewBox="0 0 32 4" opacity="0.5" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="4" rx="2" fill="white" />
+            </svg>
+
+          </label>
+          <label for="slide3" class="bar" id="bar3">
+            <svg width="32" height="4" viewBox="0 0 32 4" opacity="0.5" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="4" rx="2" fill="white" />
+            </svg>
+          </label>
         </div>
 
-        <div class="banner-elements">
-          <a href=""><img class="burger" src="assets/header/Burger.svg" alt="icone hamburger menu"></a>
-          <a href=""><img class="cart" src="assets/header/cart.svg" alt="icone carrinho de compras"></a>
-          <input type="radio" name="slide" id="slide1" checked>
-          <input type="radio" name="slide" id="slide2">
-          <input type="radio" name="slide" id="slide3">
+        <div class="container">
+          <div class="banner-sliders">
+            <span class="slide s1">
+              <h2>Preparamos o melhor café fresco da torra cada dia</h2>
+              <p>Entregamos em todo Brasil</p>
+            </span>
 
-          <div class="navegation">
-            <label for="slide1" class="bar" id="bar1">
-              <svg width="32" height="4" viewBox="0 0 32 4" opacity="0.5" xmlns="http://www.w3.org/2000/svg">
-                <rect width="32" height="4" rx="2" fill="white" />
-              </svg>
+            <span class="slide s2"><!--texto e paragrafo ultilizado apenas para teste podendo ser mudado-->
+              <h2>Loremipsum or situs amet conse adi pisicing elit Ut!</h2>
+              <p>Lorem ipsum dolor sit.</p>
+            </span>
 
-            </label>
-            <label for="slide2" class="bar" id="bar2">
-              <svg width="32" height="4" viewBox="0 0 32 4" opacity="0.5" xmlns="http://www.w3.org/2000/svg">
-                <rect width="32" height="4" rx="2" fill="white" />
-              </svg>
-
-            </label>
-            <label for="slide3" class="bar" id="bar3">
-              <svg width="32" height="4" viewBox="0 0 32 4" opacity="0.5" xmlns="http://www.w3.org/2000/svg">
-                <rect width="32" height="4" rx="2" fill="white" />
-              </svg>
-            </label>
-          </div>
-
-          <div class="container">
-            <div class="banner-sliders">
-              <span class="slide s1">
-                <h2>Preparamos o melhor café fresco da torra cada dia</h2>
-                <p>Entregamos em todo Brasil</p>
-              </span>
-
-              <span class="slide s2"><!--texto e paragrafo ultilizado apenas para teste podendo ser mudado-->
-                <h2>Loremipsum or situs amet conse adi pisicing elit Ut!</h2>
-                <p>Lorem ipsum dolor sit.</p>
-              </span>
-
-              <span class="slide s3"><!--texto e paragrafo ultilizado apenas para teste podendo ser mudado-->
-                <h2>ipsumLorem dol sitmet ecte constur adi compsad nmlif</h2>
-                <p>Lorem ipsum dolor sit.</p>
-              </span>
-            </div>
-          </div>
-
-          <div class="banner-arrows">
-            <label for="slide3" class="one" id="pre"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M10 17L2 9L10 1" stroke="white" stroke-width="2" />
-              </svg>
-            </label>
-            <label for="slide2" class="one" id="nxt"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1L9 9L1 17" stroke="white" stroke-width="2" />
-              </svg>
-            </label>
-
-            <label for="slide1" class="two" id="pre"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M10 17L2 9L10 1" stroke="white" stroke-width="2" />
-              </svg>
-            </label>
-            <label for="slide3" class="two" id="nxt"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1L9 9L1 17" stroke="white" stroke-width="2" />
-              </svg>
-            </label>
-
-            <label for="slide2" class="three" id="pre"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M10 17L2 9L10 1" stroke="white" stroke-width="2" />
-              </svg>
-            </label>
-            <label for="slide1" class="three" id="nxt"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1L9 9L1 17" stroke="white" stroke-width="2" />
-              </svg>
-            </label>
+            <span class="slide s3"><!--texto e paragrafo ultilizado apenas para teste podendo ser mudado-->
+              <h2>ipsumLorem dol sitmet ecte constur adi compsad nmlif</h2>
+              <p>Lorem ipsum dolor sit.</p>
+            </span>
           </div>
         </div>
-      </header>
+
+        <div class="banner-arrows">
+          <label for="slide3" class="one" id="pre"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 17L2 9L10 1" stroke="white" stroke-width="2" />
+            </svg>
+          </label>
+
+          <label for="slide2" class="one" id="nxt"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1L9 9L1 17" stroke="white" stroke-width="2" />
+            </svg>
+          </label>
+
+          <label for="slide1" class="two" id="pre"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 17L2 9L10 1" stroke="white" stroke-width="2" />
+            </svg>
+          </label>
+
+          <label for="slide3" class="two" id="nxt"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1L9 9L1 17" stroke="white" stroke-width="2" />
+            </svg>
+          </label>
+
+          <label for="slide2" class="three" id="pre"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 17L2 9L10 1" stroke="white" stroke-width="2" />
+            </svg>
+          </label>
+
+          <label for="slide1" class="three" id="nxt"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1L9 9L1 17" stroke="white" stroke-width="2" />
+            </svg>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <section class="destaques">
+
+      <div class="destaque">
+        <div>
+          <img src="assets/banner/coffee machine.png" alt="maquina preparando cafe">
+        </div>
+        <div class="destaque-texto">
+          <h3>Café magico...</h3>
+          <p>Preparado com os melhores ingredientes e com os melhores acessórios, seguindo os métodos tradicionais e os
+            mais modernos.
+          </p>
+        </div>
+      </div>
+
+      <div class="destaque">
+        <div class="destaque-texto">
+          <h3>...e muito mais</h3>
+          <p>Não esqueça de dar uma olhada em nossa seleção de sobremesas deliciosas!</p>
+        </div>
+        <div>
+          <img src="assets/banner/xicara com cafe.png" alt="xicara com cafe com desenho de uma folha dentro dele">
+        </div>
+      </div>
     </section>
 
-    <section class="highlights">
-      <div>
-        <img src="assets/banner/coffee machine.png" alt="maquina preparando cafe">
-      </div>
-      <div>
-        <h3>Café magico...</h3>
-        <p>Preparado com os melhores ingredientes e com os melhores acessórios, seguindo os métodos tradicionais e os
-          mais modernos.
-        </p>
-      </div>
-
-      <div>
-        <h3>...e muito mais</h3>
-        <p>Não esqueça de dar uma olhada em nossa seleção de sobremesas deliciosas!
-        </p>
-      </div>
-      <div>
-        <img src="assets/banner/xicara com cafe.png" alt="xicara com cafe com desenho de uma folha dentro dele">
-      </div>
-    </section>
-
-    <section class="varieties">
+    <section class="variedades">
       <h4>Variedades de café</h4>
-      <div class="variety-cards">
-        <div class="card">
+      <div class="produtos">
+        <div class="produto">
           <p>RUANDA UMARAGE NAT</p>
           <img src="assets/coffee/coffee bag.png" alt="pacote de cafe">
-          <p>40 R$</p>
-          <p>60 R$</p>
-          <button>+ adicionar ao carrinho</button>
+          <span class="produto-valor">
+            <p class="produto-valor-forte">40 R$</p>
+            <p class="produto-valor-fraco">60 R$</p>
+          </span>
+          <button class="produto-adicionar">+ adicionar ao carrinho</button>
         </div>
-        <div class="card">
+
+        <div class="produto">
           <p>RUANDA UMARAGE NAT</p>
           <img src="assets/coffee/coffee bag.png" alt="pacote de cafe">
-          <p>40 R$</p>
-          <p>60 R$</p>
-          <button>+ adicionar ao carrinho</button>
+          <span class="produto-valor">
+            <p class="produto-valor-forte">40 R$</p>
+            <p class="produto-valor-fraco">60 R$</p>
+          </span>
+          <button class="produto-adicionar">+ adicionar ao carrinho</button>
         </div>
-        <div class="card">
+
+        <div class="produto">
           <p>RUANDA UMARAGE NAT</p>
           <img src="assets/coffee/coffee bag.png" alt="pacote de cafe">
-          <p>40 R$</p>
-          <p>60 R$</p>
-          <button>+ adicionar ao carrinho</button>
+          <span class="produto-valor">
+            <p class="produto-valor-forte">40 R$</p>
+            <p class="produto-valor-fraco">60 R$</p>
+          </span>
+          <button class="produto-adicionar">+ adicionar ao carrinho</button>
         </div>
-        <div class="card">
+
+        <div class="produto">
           <p>RUANDA UMARAGE NAT</p>
           <img src="assets/coffee/coffee bag.png" alt="pacote de cafe">
-          <p>40 R$</p>
-          <p>60 R$</p>
-          <button>+ adicionar ao carrinho</button>
+          <span class="produto-valor">
+            <p class="produto-valor-forte">40 R$</p>
+            <p class="produto-valor-fraco">60 R$</p>
+          </span>
+          <button class="produto-adicionar">+ adicionar ao carrinho</button>
         </div>
-        <div class="card">
+
+        <div class="produto">
           <p>RUANDA UMARAGE NAT</p>
           <img src="assets/coffee/coffee bag.png" alt="pacote de cafe">
-          <p>40 R$</p>
-          <p>60 R$</p>
-          <button>+ adicionar ao carrinho</button>
+          <span class="produto-valor">
+            <p class="produto-valor-forte">40 R$</p>
+            <p class="produto-valor-fraco">60 R$</p>
+          </span>
+          <button class="produto-adicionar">+ adicionar ao carrinho</button>
         </div>
-        <div class="card">
+
+        <div class="produto">
           <p>RUANDA UMARAGE NAT</p>
           <img src="assets/coffee/coffee bag.png" alt="pacote de cafe">
-          <p>40 R$</p>
-          <p>60 R$</p>
-          <button>+ adicionar ao carrinho</button>
+          <span class="produto-valor">
+            <p class="produto-valor-forte">40 R$</p>
+            <p class="produto-valor-fraco">60 R$</p>
+          </span>
+          <button class="produto-adicionar">+ adicionar ao carrinho</button>
         </div>
       </div>
     </section>
@@ -182,29 +206,39 @@
       <div class="benefits">
         <div class="benefit">
           <img src="assets/icons/car.svg" alt="icone de um caminhao">
-          <p>Entrega gratuita</p>
+          <p>Entrega</p>
+          <p>gratuita</p>
         </div>
+
         <div class="benefit">
           <img src="assets/icons/grain.svg" alt="icone de um grao">
-          <p>Pagamento na entrega</p>
+          <p>Pagamento</p>
+          <p>entrega</p>
         </div>
+
         <div class="benefit">
           <img src="assets/icons/wallet.svg" alt="icone de uma carteira">
-          <p>Política de reembolso
-          </p>
+          <p>Política</p>
+          <p>de reembolso</p>
         </div>
+
         <div class="benefit">
           <img src="assets/icons/discount.svg" alt="icone de desconto">
           <p>Sistema de descontos acumuláveis</p>
         </div>
+
         <div class="benefit">
           <img src="assets/icons/gift.svg" alt="icone de um presente">
           <p>Presente por cada 6 caixas de café</p>
         </div>
+      </div>
+
+      <div class="mid-section-banners">
         <div class="catalog">
           <h4>Catálogo de cafés</h4>
           <p>Mais de 50 tipos de café fresco da torra para qualquer método de preparo</p>
         </div>
+
         <div class="acessory">
           <h4>Acessórios</h4>
           <p>Todo o que a gente precisa para preparar um café saboroso em casa
@@ -212,46 +246,63 @@
         </div>
       </div>
     </section>
+
     <section class="find-store">
       <h4>Encontre uma loja</h4>
-      <select id="select-city" placeholder="Escolha a cidade">
-        <option value="">Escolha a cidade</option>
-      </select>
-      <form>
-        <input type="search" id="address" placeholder="Digite o endereço">
-        <label for="address"><img src="assets/icons/lupa.svg" alt="icone de uma lupa"></label>
-      </form>
-      <iframe
+      <div class="find-store-filtro">
+        <div class="select-city">
+          <select id="selection" required>
+            <option value="">Escolha a cidade</option>
+            <option>Espirito santo</option>
+            <option>Rio de janeiro</option>
+          </select>
+        </div>
+
+        <form>
+          <input type="search" id="address" placeholder="Digite o endereço">
+          <label for="address"><img src="assets/icons/lupa.svg" alt="icone de uma lupa"></label>
+        </form>
+      </div>
+
+      <iframe class="map"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117761.59562341166!2d-43.56716418129464!3d-22.726387959068187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x995d694889f955%3A0x23ff502568217834!2sNova%20Igua%C3%A7u%2C%20RJ%2C%20Brasil!5e0!3m2!1spt-PT!2spt!4v1673897454958!5m2!1spt-PT!2spt"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        width="600" height="512px" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
   </main>
   <footer>
-    <h5>Black<i>Coffee</i></h5>
-    <ul>
-      <li class="list-title">INSTITUCIONAL</li>
-      <li><a href="">Quem somos</a></li>
-      <li><a href="">Certificados</a></li>
-      <li><a href="">Nossa produção</a></li>
-      <li><a href="">Programa de parceiros</a></li>
-    </ul>
-    <ul>
-      <li class="list-title">PRODUTOS</li>
-      <li><a href="">Café</a></li>
-      <li><a href="">Té</a></li>
-      <li><a href="">Acessórios</a></li>
-      <li><a href="">Ofertas</a></li>
-    </ul>
-    <ul>
-      <li class="list-title">REDES SOCIAIS</li>
-      <li><a href=""><img src="assets/icons/Instagram.svg" alt="icone do Instagram"></a></li>
-      <li><a href=""><img src="assets/icons/Twitter.svg" alt="icone do Twitter"></a></li>
-      <li><a href=""><img src="assets/icons/Facebook.svg" alt="icone do Facebook"></a></li>
-    </ul>
-    <p>DESIGNED BY <img src="assets/icons/logo.svg" alt="logotipo da mentorama"></p>
+
+    <div class="credits">
+      <p>Black<i>Coffee</i></p>
+      <ul>
+        <h5>INSTITUCIONAL</h5>
+        <li><a href="">Quem somos</a></li>
+        <li><a href="">Certificados</a></li>
+        <li><a href="">Nossa produção</a></li>
+        <li><a href="">Programa de parceiros</a></li>
+      </ul>
+
+      <ul>
+        <h5>PRODUTOS</h5>
+        <li><a href="">Café</a></li>
+        <li><a href="">Té</a></li>
+        <li><a href="">Acessórios</a></li>
+        <li><a href="">Ofertas</a></li>
+      </ul>
+
+      <ul>
+        <h5>REDES SOCIAIS</h5>
+        <div class="credits-container">
+          <li><a href=""><img src="assets/icons/Instagram.svg" alt="icone do Instagram"></a></li>
+          <li><a href=""><img src="assets/icons/Twitter.svg" alt="icone do Twitter"></a></li>
+          <li><a href=""><img src="assets/icons/Facebook.svg" alt="icone do Facebook"></a></li>
+        </div>
+      </ul>
+    </div>
+
+    <div class="footer-logo">
+      <p>DESIGNED BY <img src="assets/icons/logo.svg" alt="logotipo da mentorama"></p>
+    </div>
   </footer>
-
 </body>
-
 </html>
