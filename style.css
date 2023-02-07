@@ -19,6 +19,8 @@
   }
 
   header {
+    width: 100%;
+    display: flex;
     background-image: url("assets/banner/coffee\ cup\ holder.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -33,10 +35,11 @@
   }
 
   .banner {
-    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+
   }
 
   .acoes {
@@ -65,12 +68,12 @@
     height: 100%;
     display: flex;
   }
-
+   
   .slide h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 80px;
-    width: 704px;
+  width: 702px;
     color: var(--branco);
   }
 
@@ -104,6 +107,7 @@
 
   .container {
     width: 704px;
+    height:400px;
     overflow: hidden;
   }
 
